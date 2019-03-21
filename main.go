@@ -1,12 +1,12 @@
 package main
 
 import (
+	"go-port-forward-with-ssh/config"
+	"go-port-forward-with-ssh/logs"
 	"golang.org/x/crypto/ssh"
 	"io"
 	"io/ioutil"
 	"net"
-	"port_forward_mine/config"
-	"port_forward_mine/logs"
 	"time"
 )
 
